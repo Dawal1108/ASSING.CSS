@@ -1,0 +1,51 @@
+
+.navbar-light {
+    display: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #0BCEAF;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding: 10px 0;
+    }
+  }
+img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.mb-4 { 
+  background-attachment: blue;
+  
+
+}
+
+body{
+display: block;
+margin: 8px;
+}
+
+/*---------- Progress Bar ----------*/
+
+.progress {
+    border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+  }
+
+
